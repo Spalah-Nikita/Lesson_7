@@ -23,6 +23,13 @@
 {
     [self.delegate changeBackgroundColor];
 }
+- (IBAction)changeColorToRedAction:(id)sender
+{
+    if ([self.delegate respondsToSelector:@selector(changeBackgroundColorToRed)])
+    {
+        [self.delegate changeBackgroundColorToRed];
+    }
+}
 
 - (IBAction)backAction:(id)sender
 {

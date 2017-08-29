@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ViewController_2.h"
+#import "Protocols.h"
 
 @interface ViewController () <ViewControllersProtocol>
 
@@ -43,6 +44,11 @@
 - (void)changeBackgroundColor
 {
     self.view.backgroundColor = [UIColor yellowColor];
+}
+
+- (void)changeBackgroundColorToRed
+{
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end

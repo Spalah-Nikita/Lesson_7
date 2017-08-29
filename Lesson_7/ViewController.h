@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol ViewControllersProtocol <NSObject>
-
-- (void)changeBackgroundColor;
-
-@end
-
 @interface ViewController : UIViewController
 
 @end
